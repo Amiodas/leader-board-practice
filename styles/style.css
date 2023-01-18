@@ -28,7 +28,44 @@ main {
     font-size: 24px;
     margin-bottom: 25px;
 }
-/* Top Player Styles */
+
+/* ---------------Navbar Styles----------------- */
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40;
+    height: 51px;
+}
+.logo-title {
+    color: #fff;
+    padding-left: 20px;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* --------------Top Player Styles---------------- */
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
